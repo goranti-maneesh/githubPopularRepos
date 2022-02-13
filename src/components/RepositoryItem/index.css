@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.repository-item-ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.each-repository-container {
+  height: 350px;
+  width: 230px;
+  background-color: #f8f8ff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.repository-logo {
+  width: 70px;
+}
+
+.repository-name {
+  color: #e73959;
+  font-size: 20px;
+}
+
+.repository-details-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.repository-details-image {
+  width: 15px;
+  height: 15px;
+}
